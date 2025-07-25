@@ -9,60 +9,6 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 
-/* ------------------ NAV BAR STYLE ------------------ */
-
-.navbar{
-    /* background-color: red; */
-    width: 100%;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-}
-
-.navbar-list{
-    width: 600px;
-    height: 40px;
-    list-style-type: none;
-    background: #C7C8C3;
-    border-radius: 20px;
-    display:  flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.navbar ul li{
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbar-list li a{
-    text-decoration: none;
-    color: #59554F;
-}
-
-.flip {
-  --duration: 0.5s;
-  --function: cubic-bezier(0.66, 0, 0.34, 1);
-
-  overflow-y: clip;
-
-  > * {
-    display: block;
-    transition: transform var(--duration) var(--function),
-      translate 0ms calc(var(--duration) / 2);
-  }
-
-  &:is(:hover, :focus-within) > * {
-    transform: translateY(-2lh);
-    translate: 0 2lh;
-  }
-}
-
-
 /* ------------------ HERO SECTION STYLE ------------------ */
 
 .hero-container{
